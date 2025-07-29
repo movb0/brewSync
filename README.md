@@ -19,8 +19,8 @@ This is a simple Java console application simulating a coffee shop processing or
 ### `CoffeeShop`
 Represents a coffee shop with a name and the number of current orders.
 
-- `decrementOrdersInProgress()` – synchronized method to safely reduce order count.
-- `getOrdersInProgress()` – returns current active orders.
+- `decrementOrdersInProgress()` - synchronized method to safely reduce order count.
+- `getOrdersInProgress()` - returns current active orders.
 
 ### `OrderThread`
 Implements `Runnable` and simulates processing of a single coffee order.
